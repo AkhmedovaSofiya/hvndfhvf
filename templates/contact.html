@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Кoнтакты</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="vCard template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../static/styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="../static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/contact.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/contact_responsive.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"> ГАРТМАН Н.В. </div>
+			<div class="main_nav d-flex flex-row align-items-end justify-content-start" style="margin-left: 50px;">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li><a href="./about.html">О себе</a></li>
+					<li><a href="./experience.html">Информация</a></li>
+					<li><a href="./portfolio.html">Портфолио</a></li>
+					<li  class="active"><a href="./contact.html">Контакты</a></li>
+				</ul>
+			</div>
+	<div class="menu">
+		<div class="menu_content d-flex flex-row align-items-start justify-content-end">
+			<div class="hamburger ml-auto">menu</div>
+			<div class="menu_nav text-right">
+				<ul>
+					<li class="active"><a href="./about.html">О себе</a></li>
+					<li><a href="./experience.html">Информация</a></li>
+					<li><a href="./portfolio.html">Портфолио</a></li>
+					<li  class="active"><a href="./contact.html">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		</div>
+	</header>
+
+	<div class="content_container">
+		<div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+
+			<!-- General Information -->
+			<div class="general_info d-flex flex-xl-column flex-md-row flex-column">
+				<div>
+					<div class="general_info_image">
+						<div class="background_image" style="background-image:url(../static/images/smith.jpg)"></div>
+					</div>
+				</div>
+				<div class="general_info_content">
+					<div class="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
+						<div class="general_info_title">Основная информация</div>
+						<ul class="general_info_list">
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_1.png" alt=""></div>
+								<div class="general_info_text">Имя: <span>Гартман Наталья Валерьевна</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_6.png" alt=""></div>
+								<div class="general_info_text">Местоположение: <span>пгт. Федоровский</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_2.png" alt=""></div>
+								<div class="general_info_text">Дата рождения: <span>31.10.1969</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_3.png" alt=""></div>
+								<div class="general_info_text">e-mail: <span>gartman1969@list.ru</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_4.png" alt=""></div>
+								<div class="general_info_text">Телефон: <span>89519616551</span></div>
+						</ul>
+						<div class="social_container">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_content">
+				<div class="main_title_container d-flex flex-column align-items-start justify-content-end">
+					<div class="main_title">Мои контакты</div>
+				</div>
+				<div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
+					<div class="contact">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-xl-6">
+									<div class="contact_text">
+										<p></p>
+									</div>
+									<div class="contact_form_container">
+										<form method="post" action="#" id="contact_form" class="contact_form clearfix">
+											<div>
+                                                <input type="text" name="name" class="contact_input" placeholder="ФИО" required="required">
+                                            </div>
+											<div>
+                                                <input type="email" name="email" class="contact_input" placeholder="E-mail" required="required">
+                                            </div>
+											<input type="text" name="contact" class="contact_input" placeholder="Тема" required="required">
+											<textarea name="message" class="contact_input contact_textarea" placeholder="Сообщения" required="required"></textarea>
+											<button onclick="document.getElementById('contact_form').submit()" class="contact_button">Отправить</button>
+										</form>
+									</div>
+								</div>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30702.038039187468!2d73.36710135446562!3d61.25295525536306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43739773194f954d%3A0x231da0789201f147!2z0KHRg9GA0LPRg9GCLCDQpdCw0L3RgtGLLdCc0LDQvdGB0LjQudGB0LrQuNC5INCw0LLRgtC-0L3QvtC80L3Ri9C5INC-0LrRgNGD0LM!5e0!3m2!1sru!2sru!4v1649315984046!5m2!1sru!2sru" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+<div align='center'>
+<script src="../static/js/jquery-3.2.1.min.js"></script>
+<script src="../static/styles/bootstrap-4.1.2/popper.js"></script>
+<script src="../static/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="../static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
+<script src="../static/plugins/easing/easing.js"></script>
+<script src="../static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="../static/js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Портфолио</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="vCard template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../static/styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="../static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/portfolio.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/portfolio_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"> ГАРТМАН Н.В. </div>
+			<div class="main_nav d-flex flex-row align-items-end justify-content-start" style="margin-left: 238px;">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li><a href="./about.html">О себе</a></li>
+					<li><a href="./experience.html">Информация</a></li>
+					<li class="active"><a href="./portfolio.html">Портфолио</a></li>
+					<li><a href="./contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<!-- Menu -->
+	<div class="menu">
+		<div class="menu_content d-flex flex-row align-items-start justify-content-end">
+			<div class="hamburger ml-auto">Меню</div>
+			<div class="menu_nav text-right">
+				<ul>
+					<li class="active"><a href="./about.html">О себе</a></li>
+					<li><a href="./experience.html">Информация</a></li>
+					<li class="active"><a href="./portfolio.html">Портфолио</a></li>
+					<li><a href="./contact.html">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		</div>
+	</header>
+
+	<div class="content_container">
+		<div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+
+			<!-- General Information -->
+			<div class="general_info d-flex flex-xl-column flex-md-row flex-column">
+				<div>
+					<div class="general_info_image">
+						<div class="background_image" style="background-image:url(../static/images/smith.jpg)"></div>
+					</div>
+				</div>
+				<div class="general_info_content">
+					<div class="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
+						<div class="general_info_title">Основная информация</div>
+						<ul class="general_info_list">
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_1.png" alt=""></div>
+								<div class="general_info_text">Имя: <span>Гартман Наталья Валерьевна</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_6.png" alt=""></div>
+								<div class="general_info_text">Местоположение: <span>пгт. Федоровский</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_2.png" alt=""></div>
+								<div class="general_info_text">Дата рождения: <span>31.10.1969</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_3.png" alt=""></div>
+								<div class="general_info_text">e-mail: <span>gartman1969@list.ru</span></div>
+							</li>
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="../static/images/icon_4.png" alt=""></div>
+								<div class="general_info_text">Телефон: <span>89519616551</span></div>
+							</li>
+						</ul>
+
+						<!-- Social -->
+						<div class="social_container">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main Content -->
+
+			<div class="main_content">
+				<div class="main_title_container d-flex flex-column align-items-start justify-content-end">
+					<div class="main_title">Портфолио</div>
+				</div>
+				<div class="portfolio_categories button-group filters-button-group">
+					<ul>
+						<li class="portfolio_category active is-checked" id="all_categories" data-filter="*">Все</li>
+						<li class="portfolio_category" data-filter=".p_design">Образование</li>
+						<li class="portfolio_category" data-filter=".p_photography">Дипломы</li>
+						<li class="portfolio_category" id="1" data-filter=".p_brand">Соревнования</li>
+					</ul>
+				</div>
+
+				<div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
+					<div class="portfolio_grid grid clearfix">
+
+						<!-- Portfolio Item -->
+						<div class="grid-item portfolio_item p_design">
+							<img src="../static/images/portfolio_1.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Благодарственное письмо</div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="grid-item portfolio_item p_photography">
+							<img src="../static/images/portfolio_2.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Диплом о высшем образовании</div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="grid-item portfolio_item p_brand">
+							<img src="../static/images/portfolio_3.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Диплом "Лучшая спортивная агитбригада"</div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="grid-item portfolio_item p_design">
+							<img src="../static/images/portfolio_4.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Удостоверение о повышении квалификации</div>
+							</div>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="grid-item portfolio_item p_photography">
+							<img src="../static/images/portfolio_5.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Благодарственное письмо</div>
+							</div>
+						</div>
+
+						<div class="grid-item portfolio_item p_brand">
+							<img src="../static/images/portfolio_6.jpg" alt="">
+							<div class="portfolio_item_content d-flex flex-column align-items-center justify-content-center">
+								<div class="portfolio_item_title">Удостоверение о повышении квалификации</div>
+							</div>
+						</div>
+					</div>
+						
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<script>
+    window.onload = function () {
+        document.getElementById('all_categories').click();
+    }
+</script>
+<script src="../static/js/jquery-3.2.1.min.js"></script>
+<script src="../static/styles/bootstrap-4.1.2/popper.js"></script>
+<script src="../static/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="../static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
+<script src="../static/plugins/easing/easing.js"></script>
+<script src="../static/plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="../static/plugins/Isotope/fitcolumns.js"></script>
+<script src="../static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="../static/js/portfolio.js"></script>
+</body>
+</html>
